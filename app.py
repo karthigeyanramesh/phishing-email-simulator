@@ -52,5 +52,7 @@ def download_pdf():
 
     return send_file(pdf_path, as_attachment=True)
 
-if __name__ == '__main__':
-    app.run(debug=False, port=5000)
+# Render will do the job for us
+
+# if __name__ == '__main__':
+#     app.run(debug=False, port=5000)
